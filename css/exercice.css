@@ -6,17 +6,30 @@
 
 /* 2. exercice-order-1 */
 .exercice-order-1 .element-blue{
-  order:1;}
+  order:1;
+}
 .exercice-order-1 .container{
   display: flex;
   flex-direction: row;
 }
 
 /* 3. exercice-order-2 */
-
+.exercice-order-2 .element-yellow{
+  order:-1;
+}
+.exercice-order-2 .container{
+  display: flex;
+  flex-direction: column;
+}
 
 /* 4. exercice-order-3 */
-
+.exercice-order-3 .element-blue{
+  order:-1;
+}
+.exercice-order-3 .container{
+  display: flex;
+  flex-direction: row;
+}
 
 /* 5. exercice-align-self-1*/
 
